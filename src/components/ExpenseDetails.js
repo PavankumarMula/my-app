@@ -1,4 +1,4 @@
-function ExpenseDetails(props) {
+const ExpenseDetails=(props)=> {
   const title = props.description;
   const Amount = props.Amount;
   return (

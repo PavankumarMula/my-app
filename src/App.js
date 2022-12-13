@@ -1,7 +1,7 @@
 import './App.css';
 import './components/ExpenseItem'
 import ExpenseItem from './components/ExpenseItem';
-function App() {
+const App=()=> {
   const data=[{id:1,Date:new Date(2022,12,14),title:"Car Insurance",Amount:'$100',location:"hyderabad"},
   {id:2,Date:new Date(2022,1,27),title:"Movies",Amount:'$200',location:"bangalore"},
   {id:3,Date:new Date(2022,3,8),title:"Pizza",Amount:'$300',location:"mumbai"},
