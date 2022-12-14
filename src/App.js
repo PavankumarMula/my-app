@@ -30,10 +30,15 @@ const App = () => {
   //   React.createElement('h2', {}, "Let's get started!"),
   //   React.createElement(Expenses, { items: expenses })
   // );
+  const NewExpensehandler=(expense)=>{
+    console.log(expense);
+  }
+
+
 
   return (
     <div>
-      <NewExpense></NewExpense>
+      <NewExpense dataForm={NewExpensehandler}></NewExpense>
       <Expenses items={expenses} />
     </div>
   );
