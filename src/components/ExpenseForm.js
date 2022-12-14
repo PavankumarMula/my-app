@@ -21,6 +21,7 @@ const ExpenseForm = ()=> {
             Date:new Date(EnteredDate)
         }
         console.log(Expenses);
+        
     };
   return (
     <form onSubmit={formHandler}>
