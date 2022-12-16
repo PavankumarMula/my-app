@@ -12,8 +12,6 @@ const ExpensesList=(props)=>{
                 return <ExpenseItem key={expense.id} title={expense.title} amount={expense.amount} date={expense.date}></ExpenseItem>
             })}
         </ul>
-
     )
- 
 }
  export default ExpensesList;

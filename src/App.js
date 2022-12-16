@@ -30,7 +30,6 @@ const App = () => {
       return [data,...prevExpenses]
     });
   }
-  console.log(expenses);
   return (
     <div>
       <NewExpense dataForm={NewExpensehandler}></NewExpense>
